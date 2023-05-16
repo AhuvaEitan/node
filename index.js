@@ -212,17 +212,7 @@ app.get('/',(req,res)=>{
       ])
 })
 
-// app.get("/tasks",TasksController.getList)
 
-// app.get("/tasks/:id",TasksController.getById)
-
-// app.post("/tasks/",(req,res)=>{
-//     res.send
-// })
-
-// app.put("/tasks/:id",)
-
-// app.delete("/tasks/:id",)
 
 app.listen(port,()=>{
     console.log(`example app listening on http://localhost:${port}`)
