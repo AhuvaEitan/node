@@ -225,6 +225,6 @@ app.get('/',(req,res)=>{
 // app.delete("/tasks/:id",)
 
 app.listen(port,()=>{
-    console.log(`exaample app listening on http://localhost:${port}`)
+    console.log(`example app listening on http://localhost:${port}`)
 })
 
